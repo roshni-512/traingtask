@@ -1,6 +1,8 @@
 import React from 'react'
 import { Button } from 'react-bootstrap'
+
 export default function PricingComponent() {
+ 
   return (
     <div style={{ padding: '1px' }} >
     <div className='container my-4' style={{ fontFamily: "Fraunces" }} >
@@ -12,7 +14,7 @@ export default function PricingComponent() {
         <Button style={{backgroundColor:'#10AB61',width:'35%',padding:'10px'}} >Take a Free Demo</Button>
         </div>
         <div className='col-12 col-md-5 mt-5 mb-5'>
-                <img src={"./images/pricing.png"} style={{ width: '100%', float: 'right' }}  alt='' />
+        <img src={"./images/pricingimage.png"} style={{ width: '100%' }}  alt='' />
             </div>
         </div>
     </div>

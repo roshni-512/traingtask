@@ -9,7 +9,7 @@ export default function FeatureComponent3() {
                 <img src={"./images/feature3.png"} style={{ width: '100%', float: 'right' }}  alt='' />
             </div>
         <div className='col-12 col-md-7 ps-sm-5' style={{display:'fllex', alignSelf:'center'}}>
-        <p style={{fontFamily:'Alfa Slab One',fontSize:'50px' }}>Reliable</p>
+        <p style={{fontFamily:'Alfa Slab One',fontSize:'50px' }} className='mt-5 mb-5'>Reliable</p>
         <p style={{fontFamily:'Poppins'}} className='my-4'>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam.</p>
         <Button style={{backgroundColor:'#10AB61' ,width:'45%',padding:'10px'}} >Take a Free Demo</Button>
         </div>

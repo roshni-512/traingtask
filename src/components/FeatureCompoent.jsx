@@ -2,8 +2,8 @@ import React from 'react'
 
 export default function FeatureCompoent() {
   return (
-    <div>
-      <div className="container">
+    <div >
+      <div className="container mt-5 mb-5">
         <div className="row">
             <div className="col-12"style={{fontFamily:'Alfa Slab One',fontSize:'130px' }}>More agile than a </div>
         </div>
